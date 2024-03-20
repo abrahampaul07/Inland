@@ -11,7 +11,7 @@ const Hero = () => {
   }, [])
   return (
     <div className="relative flex">
-      <video width="100%" height="240" loop muted autoPlay>
+      <video width="100%" loop muted autoPlay>
         <source src={video} type="video/mp4" />
       </video>
       {/* <motion.div
