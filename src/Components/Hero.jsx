@@ -8,31 +8,6 @@ const Hero = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-//   return (
-//     <div className="relative flex text-center justify-center items-center">
-//       <video loop muted autoPlay className="opacity-90 ">
-//         <source src={video} type="video/mp4" />
-//       </video>
-
-//       <h1
-//         className="absolute top-[65px] md:top-[240px] text-white font-bold text-3xl md:text-8xl "
-//         data-aos="fade-right"
-//         data-aos-duration="3000"
-//       >
-//         WE BUILD YOUR
-//       </h1>
-
-//       <h1
-//         className="absolute top-[90px] md:top-[320px] text-gold font-bold text-4xl md:text-9xl"
-//         data-aos="fade-left"
-//         data-aos-duration="3000"
-//       >
-//         DREAM
-//       </h1>
-//     </div>
-//   );
-// };
-
 
 return (
   <div className="relative w-full h-screen">
