@@ -16,7 +16,11 @@ export default {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
-      'gold':'#eab308'
+      'gold':'#fde047',
+      'bgclr':'#f8fafc',
+      'drm':'#C19D33',
+      'yllw':'#fde047'
+      
     },
   },
   plugins: [],
