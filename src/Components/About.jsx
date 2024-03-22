@@ -18,7 +18,7 @@ const About = () => {
                     <img src={img} alt="image" data-aos="zoom-in-down" data-aos-duration="3000"/>
                 </div>
                 <div className="flex flex-col text-start space-y-5 lg:space-y-9 justify-center w-full lg:w-1/2" >
-                    <h5 className="text-metal border-l-[5px] border-gold text-1xl lg:text-2xl "data-aos="fade-up" data-aos-duration="1000">&nbsp;Get to know us</h5>
+                    <h1 className=" border-l-[5px] border-gold uppercase font-bold text-2xl "data-aos="fade-up" data-aos-duration="1000">&nbsp;Get to know us</h1>
                     <h1 className="font-bold text-2xl lg:text-4xl" data-aos="fade-up" data-aos-duration="2000">COMMITTED TO ONLY HIGH QUALITY SERVICE</h1>
 
                     <div className="icons-content flex gap-2 border-b-[1px] border-t-[1px] border-gold p-5 ">
@@ -32,7 +32,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <p className="text-metal text-xs lg:text-[16px] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <p className="text-blue-500  text-sm" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                 </div>
             </div>
 

@@ -6,11 +6,13 @@ const Contact = () => {
       <div className="container flex-row md:flex mb-9 ">
         <div className="left-container w-full md:w-1/2 p-5 mb-8 lg:m-9">
           <div className="flex flex-col space-y-3 w-full lg:w-[500px]">
-          <h1 className="font-bold text-2xl border-l-[5px] flex border-gold"  data-aos="fade-up" data-aos-duration="1000">&nbsp; CONTACT US</h1>
-          <input type="text" placeholder="Name" className="border-[1px] rounded border-gold p-2"  data-aos="fade-up" data-aos-duration="3000"/>
-          <input type="text" placeholder="Contact Number" className="border-[1px] rounded border-gold p-2" data-aos="fade-up" data-aos-duration="3000"/>
-          <input type="text" placeholder="Message" className="border-[1px] rounded border-gold p-2"  data-aos="fade-up" data-aos-duration="3000"/>
-          <button className="p-2 rounded bg-gold "  data-aos="fade-up" data-aos-duration="3000">Submit </button>
+              <form action="submit" className="flex flex-col gap-4">
+          <h1 className="border-l-[5px] flex border-gold uppercase font-bold text-2xl  "data-aos="fade-up" data-aos-duration="1000">&nbsp; CONTACT US</h1>
+              <input type="text" required placeholder="Name" className="border-[1px] rounded border-gold p-2"  data-aos="fade-up" data-aos-duration="2000"/>
+          <input type="text" required placeholder="Contact Number" className="border-[1px] rounded border-gold p-2" data-aos="fade-up" data-aos-duration="2000"/>
+          <input type="text" required placeholder="Message" className="border-[1px] rounded border-gold p-2"  data-aos="fade-up" data-aos-duration="2000"/>
+          <button className="p-2 rounded bg-gold "  data-aos="fade-up" data-aos-duration="2000">Submit </button>
+              </form>
           </div>
         </div>
         <div className="right-container w-full  md:w-1/2"  data-aos="fade-up" data-aos-duration="3000">

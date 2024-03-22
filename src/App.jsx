@@ -6,12 +6,19 @@ import Navbar from './Components/Navbar'
 import Loader from './Components/Loader';
 import Contact from './Components/Contact';
 import Owner from './Components/Owner';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Video from './Components/Videos';
+import Videos from './Components/Videos';
+import Services from './Components/Services';
+
 
 function App() {
 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    AOS.init({once:true});
     const timer = setTimeout(() => {
       setLoading(false); 
     }, 3000); 
@@ -27,8 +34,10 @@ function App() {
       <>
       <Navbar />
       <Hero />
-      <About/>
+      <About/> 
       <Owner/>
+      <Services/>
+      <Videos/>
       <Contact/>
     </>
     )}

@@ -1,71 +1,70 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import '../index.css';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { FreeMode, Pagination } from "swiper/modules";
 
-import slide_image_1 from '../assets/prj2.jpg';
-import slide_image_2 from '../assets/prj1.jpg';
-import slide_image_3 from '../assets/prj3.jpg';
-import slide_image_4 from '../assets/prj2.jpg';
-import slide_image_5 from '../assets/prj1.jpg';
-import slide_image_6 from '../assets/prj2.jpg';
-import slide_image_7 from '../assets/prj2.jpg';
+import { RxArrowTopRight } from "react-icons/rx";
+import { ServiceData } from "../Components/constants";
 
-function Services() {
+const Services = () => {
   return (
-    <div className="container m-auto">
-      <h1 className="heading">Flower Gallery</h1>
-      <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        }}
-        pagination={{ el: '.swiper-pagination', clickable: true }}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-          clickable: true,
-        }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
+    <div className="m-0 lg:m-7  ">
+      <h1
+        className="border-l-[5px] flex  ml-[20px]   lg:ml-[100px]  border-gold uppercase font-bold text-2xl mb-4 mt-4 "
+        data-aos="fade-up"
+        data-aos-duration="2000"
       >
-        <SwiperSlide>
-          <img src={slide_image_6} alt="slide_image" className='w-full h-full'/>
-        </SwiperSlide><SwiperSlide>
-          <img src={slide_image_7} alt="slide_image" className='w-full h-full'/>
-        </SwiperSlide><SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" className='w-full h-full'/>
-        </SwiperSlide><SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" className='w-full h-full'/>
-        </SwiperSlide>
-       
-       
+        &nbsp; OUR SEVICES
+      </h1>
+      <div className="flex items-center justify-center flex-col m-auto ">
+        <Swiper
+          breakpoints={{
+            340: {
+              slidesPerView: 2,
+              spaceBetween: 15,
+            },
 
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
-      </Swiper>
+            700: {
+              slidesPerView: 3,
+              spaceBetween: 5,
+            },
+          }}
+          freeMode={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[FreeMode, Pagination]}
+          className="max-w-[90%] lg:max-w-[85%]"
+        >
+          {ServiceData.map((item) => (
+            <SwiperSlide key={item.title}>
+              <div className="flex flex-col gap- mb-6 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] overflow-hidden cursor-pointer">
+                <div
+                  className="absolute inset-0 bg-cover bg-center opacity-95"
+
+                  style={{ backgroundImage: `${item.gradientBackground},url(${item.backgroundImage}) ` }}
+                />
+                <div className="absolute inset-0  " />
+                <div className="relative flex flex-col gap-3">
+                  {/* <item.icon className="text-blue-600 group-hover:text-blue-400 w-[32px] h-[32px]" /> */}
+                  <h1 className="text-[14px] lg:text-[34px] absolute ml-[-22px] lg:ml-0 top-[-20px] lg:top-0 uppercase bg-transparent  rounded text-black font-bold text-start lg:text-3xl">
+                    {item.title}{" "}
+                  </h1>
+                  <p className="lg:text-[10px] text-[0px] font-bold  text-white mt-[-14px] text-start">
+                    {item.content}{" "}
+                  </p>
+                </div>
+                {/* <RxArrowTopRight className="absolute bottom-5 left-5 w-[35px] h-[35px] text-white group-hover:text-blue-500 group-hover:rotate-45 duration-100" /> */}
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
-}
+};
 
 export default Services;
