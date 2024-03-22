@@ -47,7 +47,7 @@ function App() {
     AOS.init({once:true});
     const timer = setTimeout(() => {
       setLoading(false); 
-    }, 1000); 
+    }, 3000); 
 
     return () => clearTimeout(timer); // Clear the timer on unmount
   }, []);
