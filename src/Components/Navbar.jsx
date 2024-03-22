@@ -38,31 +38,31 @@ function Navbar() {
         </span>
       </div>
       <ul
-        className={`md:flex md:items-center z-10 md:z-auto md:static absolute bg-white w-full md:h-0 h-screen left-0 md:w-auto md:py-0 md:py-4 py-11 md:pl-0 pl-4 md:opacity-100 ${
+        className={`md:flex md:items-center z-10 md:z-auto md:static absolute bg-white w-full md:h-0 h-screen left-0 md:w-auto md:py-0 md:py-4 py-20 md:pl-0 pl-1 md:opacity-100 ${
           isMenuOpen ? "opacity-100 top-[80px]" : "opacity-0 h-0"
         } transition-all ease-in duration-500`}
       >
-        <li className="mx-4 my-7 md:my-0">
+        <li className="mx-4 my-11 md:my-0">
           <Link to="#home" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
             HOME
           </Link>
         </li>
-        <li className="mx-4 my-7 md:my-0">
+        <li className="mx-4 my-11 md:my-0">
           <Link to="#about" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
             ABOUT
           </Link>
         </li>
-        <li className="mx-4 my-7 md:my-0">
+        <li className="mx-4 my-11 md:my-0">
           <Link to="#services" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
             SERVICES
           </Link>
         </li>
-        <li className="mx-4 my-7 md:my-0">
+        <li className="mx-4 my-11 md:my-0">
           <Link to="#project" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
             PROJECTS
           </Link>
         </li>
-        <li className="mx-4 my-7 md:my-0">
+        <li className="mx-4 my-11 md:my-0">
           <Link to="#contact" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
             CONTACT
           </Link>
