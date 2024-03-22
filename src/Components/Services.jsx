@@ -13,13 +13,13 @@ const Services = () => {
   return (
     <div className="m-0 lg:m-7  ">
       <h1
-        className="border-l-[5px] flex  ml-[20px]   lg:ml-[100px]  border-gold uppercase font-bold text-2xl mb-4 mt-4 "
+        className="border-l-[5px] flex  ml-[20px]  lg:ml-[100px]  border-gold uppercase font-bold text-2xl mb-4 mt-[80px] "
         data-aos="fade-up"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
       >
-        &nbsp; OUR SEVICES
+        &nbsp; OUR SERVICES
       </h1>
-      <div className="flex items-center justify-center flex-col m-auto ">
+      <div className="flex items-center justify-center flex-col  ">
         <Swiper
           breakpoints={{
             340: {
@@ -45,7 +45,7 @@ const Services = () => {
                 <div
                   className="absolute inset-0 bg-cover bg-center opacity-95"
 
-                  style={{ backgroundImage: `${item.gradientBackground},url(${item.backgroundImage}) ` }}
+                  style={{ backgroundImage: `${item.gradientBackground},url(${item.backgroundImage}) `,'border':'2px solid grey' }}
                 />
                 <div className="absolute inset-0  " />
                 <div className="relative flex flex-col gap-3">

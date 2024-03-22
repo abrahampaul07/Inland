@@ -11,6 +11,7 @@ import 'aos/dist/aos.css';
 import Video from './Components/Videos';
 import Videos from './Components/Videos';
 import Services from './Components/Services';
+import Project from './Components/Project';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     AOS.init({once:true});
     const timer = setTimeout(() => {
       setLoading(false); 
-    }, 3000); 
+    }, 1000); 
 
     return () => clearTimeout(timer); // Clear the timer on unmount
   }, []);
@@ -35,8 +36,9 @@ function App() {
       <Navbar />
       <Hero />
       <About/> 
-      <Owner/>
       <Services/>
+      <Owner/>
+      <Project/>
       <Videos/>
       <Contact/>
     </>

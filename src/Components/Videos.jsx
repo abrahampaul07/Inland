@@ -2,8 +2,8 @@ import React from 'react'
 import { DefaultPlayer as Video } from 'react-html5video';
 import 'react-html5video/dist/styles.css'
 
-import video from '../assets/video.mp4';
-import thumb from '../assets/prj2.jpg'
+import video from '../assets/inland-vd.mp4';
+import thumb from '../assets/bg.jpg'
 
 const Videos = () => {
   return (
