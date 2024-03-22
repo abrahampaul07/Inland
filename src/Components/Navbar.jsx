@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="p-4 md:p-2 bg-white shadow md:flex md:items-center md:justify-between z-10 fixed top-0 left-0 right-0">
+    <nav className="p-4 md:p-2 bg-white shadow md:flex md:items-center md:justify-between z-10 md:fixed top-0 left-0 right-0">
       <div className="flex justify-between items-center">
         <span className="text-2xl font-[Poppins] cursor-pointer">
           <img
