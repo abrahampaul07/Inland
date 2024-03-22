@@ -11,15 +11,15 @@ import { ServiceData } from "../Components/constants";
 
 const Services = () => {
   return (
-    <div className="m-0 lg:m-7  ">
+    <div id="services" className="m-0 lg:m-7">
       <h1
-        className="border-l-[5px] flex  ml-[20px]  lg:ml-[100px]  border-gold uppercase font-bold text-2xl mb-4 mt-[80px] "
+        className="border-l-[5px] flex ml-[20px] lg:ml-[30px] lg:mt-[150px] mt-[100px] mb-[50px] border-icon uppercase font-bold text-2xl mb-4"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        &nbsp; OUR SERVICES
+        &nbsp;OUR <span className='text-icon'>&nbsp;SERVICES</span>
       </h1>
-      <div className="flex items-center justify-center flex-col  ">
+      <div className="flex items-center justify-center flex-col">
         <Swiper
           breakpoints={{
             340: {
@@ -37,11 +37,11 @@ const Services = () => {
             clickable: true,
           }}
           modules={[FreeMode, Pagination]}
-          className="max-w-[90%] lg:max-w-[85%]"
+          className="max-w-[90%] lg:max-w-[90%]"
         >
           {ServiceData.map((item) => (
             <SwiperSlide key={item.title}>
-              <div className="flex flex-col gap- mb-6 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] overflow-hidden cursor-pointer">
+              <div className="flex flex-col mb-9 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] overflow-hidden cursor-pointer">
                 <div
                   className="absolute inset-0 bg-cover bg-center opacity-95"
 

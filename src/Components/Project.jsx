@@ -25,11 +25,11 @@ const Project = () => {
   };
 
   return (
-    <>
-      <h1 className='text-1xl md:text-3xl font-bold text-start border-l-[5px] border-gold mt-[40px] md:mt-[120px] mb-6 ml-4 md:ml-9' data-aos="zoom-out-up" data-aos-duration="1000">
-        &nbsp; OUR RECENT <span className='text-yllw'>PROJECTS</span>
+    <div id='project'>
+      <h1 className='text-2xl md:text-2xl font-bold text-start border-l-[5px] border-icon mt-[40px] md:mt-[50px] mb-6 ml-5 md:ml-[55px]' data-aos="zoom-out-up" data-aos-duration="1000">
+        &nbsp;RECENT <span className='text-icon'>PROJECTS</span>
       </h1>
-      <Slider className='m-auto' {...settings}>
+      <Slider className='lg:m-10 m-2' {...settings}>
         <div data-aos="fade-right" >
           <img src={prj3} alt="Slide 3" className='h-[200px] md:h-[500px] w-11/12 m-auto' />
         </div>
@@ -43,7 +43,7 @@ const Project = () => {
           <img src={prj2} alt="Slide 3" className='h-[200px] md:h-[500px] w-11/12 m-auto' />
         </div>
       </Slider>
-    </>
+    </div>
   );
 };
 

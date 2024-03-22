@@ -11,14 +11,13 @@ const About = () => {
   }, []);
 
   return (
-    <>
-      <div
-        className=" flex flex-col-reverse lg:flex-row lg:m-[50px] mt-10 ml-3 md:m-[40px] mr-3 justify-evenly gap-9 lg:gap-0 mb-6"
+      <div id="about"
+        className="flex flex-col-reverse lg:flex-row lg:m-[50px] mt-10 lg:mt-10 ml-3 md:m-[40px] mr-3 justify-evenly gap-9 lg:gap-0 mb-6"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         <div className="flex md:justify-center   ">
-          <span className="border-[15px] h-[450px] md:mt-[310px] md:ml-[110px] lg:ml-0 lg:mt-7 mt-[350px] lg:h-[580px] w-[340px] lg:w-[440px] border-gold absolute top-0 left-7 z-0"></span>
+          <span className="border-[15px] h-[450px] md:mt-[310px] md:ml-[110px] lg:ml-0 lg:mt-7 mt-[350px] lg:h-[580px] w-[340px] lg:w-[440px] border-icon absolute top-0 left-7 z-0"></span>
           <img
             src={img}
             alt=""
@@ -30,14 +29,14 @@ const About = () => {
         </div>
         <div className="flex flex-col text-start space-y-5 lg:space-y-9 justify-center w-full lg:w-1/2">
           <h1
-            className=" border-l-[5px] border-gold uppercase font-bold text-2xl "
+            className=" border-l-[5px] border-icon uppercase font-bold text-2xl "
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             &nbsp;Get to know us
           </h1>
           <h1
-            className="font-bold text-2xl text-gold lg:text-4xl"
+            className="font-bold text-2xl text-icon lg:text-4xl"
             data-aos="fade-up"
             data-aos-duration="2000"
           >
@@ -50,7 +49,7 @@ const About = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              <p className="text-gold text-3xl lg:text-7xl">
+              <p className="text-icon text-3xl lg:text-7xl">
                 <FaRegBuilding />
               </p>
               <p className="pl-2">BUILDING QUALITY STANDARDS</p>
@@ -60,7 +59,7 @@ const About = () => {
               data-aos="fade-left"
               data-aos-duration="2000"
             >
-              <p className="text-gold text-3xl lg:text-7xl ">
+              <p className="text-icon text-3xl lg:text-7xl ">
                 <BsBuildings />
               </p>
               <p className="pl-2">DESIGN &. BUILD PACKAGE</p>
@@ -76,7 +75,6 @@ const About = () => {
           </p>
         </div>
       </div>
-    </>
   );
 };
 

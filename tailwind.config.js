@@ -20,7 +20,8 @@ export default {
       'bgclr':'#f8fafc',
       'drm':'#C19D33',
       'yllw':'#fde047',
-      'black':'#1e293b'      
+      'black':'#1e293b',
+      'icon':'#C6A442',      
     },
   },
   plugins: [],
