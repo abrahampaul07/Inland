@@ -19,8 +19,8 @@ export default {
       'gold':'#fde047',
       'bgclr':'#f8fafc',
       'drm':'#C19D33',
-      'yllw':'#fde047'
-      
+      'yllw':'#fde047',
+      'black':'#1e293b'      
     },
   },
   plugins: [],
