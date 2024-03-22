@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import prj from "../assets/prj.jpg";
-import prj1 from "../assets/prj1.jpg";
+import prj1 from "../assets/prj3.jpg";
 import prj2 from "../assets/prj2.jpg";
-import prj3 from "../assets/prj3.jpg";
+import prj3 from "../assets/prj1.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,7 +26,7 @@ const Project = () => {
 
   return (
     <>
-      <h1 className='text-1xl md:text-4xl font-bold text-start border-l-[3px] border-gold mt-[50px] md:mt-[120px] mb-6 ml-4 md:ml-9' data-aos="zoom-out-up" data-aos-duration="1000">
+      <h1 className='text-1xl md:text-3xl font-bold text-start border-l-[5px] border-gold mt-[40px] md:mt-[120px] mb-6 ml-4 md:ml-9' data-aos="zoom-out-up" data-aos-duration="1000">
         &nbsp; OUR RECENT <span className='text-yllw'>PROJECTS</span>
       </h1>
       <Slider className='m-auto' {...settings}>

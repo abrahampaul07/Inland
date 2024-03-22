@@ -7,7 +7,7 @@ import video from "../assets/video.mp4";
 
 const Owner = () => {
   return (
-    <div className="flex justify-center items-center mt-[100px] mb-[100px]">
+    <div className="flex justify-center items-center mt-[50px] mb-[50px]">
       <div className="max-w-full sm:max-w-5xl h-auto bg-white shadow-md rounded-lg overflow-hidden mx-5 my-8 flex flex-col sm:flex-row">
         {/* Left side (Image) */}
         <div className="w-full sm:w-1/2">
