@@ -53,13 +53,14 @@ function App() {
 
   return (
     <>
+      
     {loading ? (
       <Loader />
     ) : (
       <ThemeProvider theme={theme}>
       <BrowserRouter>
-      <GoToTop />
       <Navbar />
+      <GoToTop />
       <Hero />
       <About/> 
       <Services/>
