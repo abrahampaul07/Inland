@@ -77,7 +77,7 @@ const Wrapper = styled.section`
   @media (max-width: ${({ theme }) => theme.media.tab}) {
     .top-btn {
       right: 0;
-      left: 50%;
+      left: 87%;
       top: 90%
     }
   }
@@ -85,8 +85,8 @@ const Wrapper = styled.section`
   @media (max-width: ${({ theme }) => theme.media.small}) {
     .top-btn {
       right: 0;
-      left: 40%;
-      top: 85%
+      left: 75%;
+      top: 87%
     }
   }
 `;

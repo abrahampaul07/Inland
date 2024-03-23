@@ -10,6 +10,10 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="p-4 md:p-2 bg-white shadow md:flex md:items-center md:justify-between z-10 md:fixed top-0 left-0 right-0">
       <div className="flex justify-between items-center">
@@ -20,7 +24,7 @@ function Navbar() {
             alt="logo"
           />
 
-<img
+          <img
             className="h-10 inline"
             src={logo}
             alt="logo"
@@ -43,27 +47,27 @@ function Navbar() {
         } transition-all ease-in duration-500`}
       >
         <li className="mx-4 my-11 md:my-0">
-          <Link to="#home" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
+          <Link to="#home" smooth onClick={closeMenu} className="text-xl text-icon hover:text-cyan-500 duration-500">
             HOME
           </Link>
         </li>
         <li className="mx-4 my-11 md:my-0">
-          <Link to="#about" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
+          <Link to="#about" smooth onClick={closeMenu} className="text-xl text-icon hover:text-cyan-500 duration-500">
             ABOUT
           </Link>
         </li>
         <li className="mx-4 my-11 md:my-0">
-          <Link to="#services" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
+          <Link to="#services" smooth onClick={closeMenu} className="text-xl text-icon hover:text-cyan-500 duration-500">
             SERVICES
           </Link>
         </li>
         <li className="mx-4 my-11 md:my-0">
-          <Link to="#project" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
+          <Link to="#project" smooth onClick={closeMenu} className="text-xl text-icon hover:text-cyan-500 duration-500">
             PROJECTS
           </Link>
         </li>
         <li className="mx-4 my-11 md:my-0">
-          <Link to="#contact" smooth className="text-xl text-icon hover:text-cyan-500 duration-500">
+          <Link to="#contact" smooth onClick={closeMenu} className="text-xl text-icon hover:text-cyan-500 duration-500">
             CONTACT
           </Link>
         </li>

@@ -32,7 +32,7 @@ const Owner = () => {
             Mohammed Shafiq
           </p>
           <div className="mt-4" data-aos="fade-up" data-aos-duration="3000">
-            <p className="text-blue-500  text-sm">
+            <p className="text-blue-500 text-base md:text-sm lg:text-base">
               Mohammed Shafiq has been the frontier in the realty sector since
               two decades, envisaged in this field of real estate development &
               construction, Mohammed Shafiq’s journey began in a small city of

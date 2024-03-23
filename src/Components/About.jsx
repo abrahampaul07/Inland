@@ -66,7 +66,7 @@ const About = () => {
             </div>
           </div>
 
-          <p className="text-blue-500  text-sm">
+          <p className="text-blue-500  text-sm md:text-base">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don’t look even slightly
