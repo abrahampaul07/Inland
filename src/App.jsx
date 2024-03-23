@@ -16,7 +16,6 @@ import {BrowserRouter} from "react-router-dom";
 import GoToTop from './Components/GoToTop';
 import { ThemeProvider } from 'styled-components';
 
-
 function App() {
 
   const theme = {
@@ -28,7 +27,7 @@ function App() {
       helper: "#8490ff",
       bg: "rgb(249 249 255)",
       footer_bg: "#0a1435",
-      btn: "#C6A442",
+      btn: "#eab308",
       border: "rgba(98, 84, 243, 0.5)",
       hr: "#ffffff",
       gradient:
@@ -79,3 +78,7 @@ function App() {
 }
 
 export default App
+
+
+
+

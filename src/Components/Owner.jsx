@@ -25,10 +25,10 @@ const Owner = () => {
           data-aos="fade-in"
           data-aos-duration="3000"
         >
-          <h1 className="mb-3 font-bold text-2xl text-center lg:text-left lg:border-l-[5px] border-icon" data-aos="fade-up" data-aos-duration="1000">
+          <h1 className="mb-3 font-bold text-2xl text-center lg:text-left lg:border-l-[5px] border-gold" data-aos="fade-up" data-aos-duration="1000">
             &nbsp;THE CHAIRMAN
           </h1>
-          <p className="text-gray-700 font-bold text-center lg:text-left text-icon text-2xl uppercase" data-aos="fade-up" data-aos-duration="2000">
+          <p className="text-gray-700 font-bold text-center lg:text-left text-gold text-2xl uppercase" data-aos="fade-up" data-aos-duration="2000">
             Mohammed Shafiq
           </p>
           <div className="mt-4" data-aos="fade-up" data-aos-duration="3000">

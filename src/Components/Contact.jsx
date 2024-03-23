@@ -8,17 +8,17 @@ const Contact = () => {
           <div className="flex flex-col space-y-3 w-full lg:w-[500px]">
             <form action="submit" className="flex flex-col gap-4">
               <h1
-                className="border-l-[5px] flex border-icon uppercase font-bold text-2xl  "
+                className="border-l-[5px] flex border-gold uppercase font-bold text-2xl  "
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                &nbsp;CONTACT <span className="text-icon">&nbsp;US</span>
+                &nbsp;CONTACT <span className="text-gold">&nbsp;US</span>
               </h1>
               <input
                 type="text"
                 required
                 placeholder="Name"
-                className="border-[1px] rounded border-icon p-2"
+                className="border-[1px] rounded border-gold p-2"
                 data-aos="fade-up"
                 data-aos-duration="2000"
               />
@@ -26,7 +26,7 @@ const Contact = () => {
                 type="text"
                 required
                 placeholder="Contact Number"
-                className="border-[1px] rounded border-icon p-2"
+                className="border-[1px] rounded border-gold p-2"
                 data-aos="fade-up"
                 data-aos-duration="2000"
               />
@@ -34,12 +34,12 @@ const Contact = () => {
                 type="text"
                 required
                 placeholder="Message"
-                className="border-[1px] rounded border-icon p-2"
+                className="border-[1px] rounded border-gold p-2"
                 data-aos="fade-up"
                 data-aos-duration="2000"
               />
               <button
-                className="p-2 rounded bg-icon "
+                className="p-2 rounded bg-gold "
                 data-aos="fade-up"
                 data-aos-duration="2000"
               >

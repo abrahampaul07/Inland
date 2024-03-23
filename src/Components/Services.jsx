@@ -13,11 +13,11 @@ const Services = () => {
   return (
     <div id="services" className="m-0 lg:m-7">
       <h1
-        className="border-l-[5px] flex ml-[20px] lg:ml-[30px] lg:mt-[150px] mt-[100px] mb-[50px] border-icon uppercase font-bold text-2xl mb-4"
+        className="border-l-[5px] flex ml-[20px] lg:ml-[30px] lg:mt-[150px] mt-[100px] mb-[50px] border-gold uppercase font-bold text-2xl mb-4"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        &nbsp;OUR <span className='text-icon'>&nbsp;SERVICES</span>
+        &nbsp;OUR <span className='text-gold'>&nbsp;SERVICES</span>
       </h1>
       <div className="flex items-center justify-center flex-col">
         <Swiper
