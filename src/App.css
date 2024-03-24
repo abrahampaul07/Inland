@@ -1,8 +1,25 @@
+@font-face {
+  font-family: 'FilsonProLight';
+  src: url('./fonts/FilsonProLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FilsonProBlack';
+  src: url('./fonts/FilsonProBlack.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'FilsonProRegular';
+  src: url('./fonts/FilsonProRegular.otf') format('opentype');
+}
+
+
 #root {
   margin: 0;
   padding: 0;
   text-align: center;
   overflow: hidden;
-  font-family: "Jost", sans-serif;
+  font-family:'FilsonProRegular', sans-serif;
 }
 

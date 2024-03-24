@@ -11,13 +11,13 @@ import { ServiceData } from "../Components/constants";
 
 const Services = () => {
   return (
-    <div id="services" className="m-0 lg:m-7">
+    <div id="services" style={{ paddingTop: "100px" }} className="section m-0 lg:m-7">
       <h1
-        className="border-l-[5px] flex ml-[20px] lg:ml-[30px] lg:mt-[150px] mt-[100px] mb-[50px] border-gold uppercase font-bold text-2xl mb-4"
+        className="border-l-[5px] flex ml-[20px] lg:ml-[30px]  border-gold uppercase font-bold text-2xl mb-4"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        &nbsp;OUR <span className='text-gold'>&nbsp;SERVICES</span>
+        &nbsp;OUR <span className="text-gold">&nbsp;SERVICES</span>
       </h1>
       <div className="flex items-center justify-center flex-col">
         <Swiper
@@ -41,11 +41,17 @@ const Services = () => {
         >
           {ServiceData.map((item) => (
             <SwiperSlide key={item.title}>
-              <div className="flex flex-col mb-9 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] overflow-hidden cursor-pointer">
+              <div
+                className="flex flex-col mb-9 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] overflow-hidden cursor-pointer"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <div
-                  className="absolute inset-0 bg-cover bg-center opacity-95"
-
-                  style={{ backgroundImage: `${item.gradientBackground},url(${item.backgroundImage}) `,'border':'2px solid grey' }}
+                  className="absolute inset-0 bg-cover bg-center "
+                  style={{
+                    backgroundImage: `url(${item.backgroundImage}) `,
+                    border: "2px solid grey",
+                  }}
                 />
                 <div className="absolute inset-0  " />
                 <div className="relative flex flex-col gap-3">

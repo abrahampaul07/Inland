@@ -25,8 +25,10 @@ const Project = () => {
   };
 
   return (
-    <div id='project'>
-      <h1 className='text-2xl md:text-2xl font-bold text-start border-l-[5px] border-gold mt-[40px] md:mt-[50px] mb-6 ml-5 md:ml-[55px]' data-aos="zoom-out-up" data-aos-duration="1000">
+    <div id='project' className="section" style={{ paddingTop: "100px" }}>  
+
+      <h1 className='text-2xl md:text-2xl font-bold text-start border-l-[5px] border-gold  mb-6 ml-5 md:ml-[55px]' data-aos="fade-left"
+        data-aos-duration="1000">
         &nbsp;RECENT <span className='text-gold'>PROJECTS</span>
       </h1>
       <Slider className='lg:m-10 m-2' {...settings}>
