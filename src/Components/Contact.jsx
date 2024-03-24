@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     
-      <div id="contact" className="container flex-row md:flex mb-9 lg:pr-12 p-0">
+      <div id="contact" style={{ paddingTop: "40px" }} className="section container flex-row md:flex mb-9 lg:pr-12 p-0">
         <div className="left-container w-full md:w-1/2 p-5 mb-8 lg:m-9">
           <div className="flex flex-col space-y-3 w-full lg:w-[500px]">
             <form action="submit" className="flex flex-col gap-4">

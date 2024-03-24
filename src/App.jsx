@@ -25,9 +25,9 @@ function App() {
       white: "#fff",
       black: " #212529",
       helper: "#8490ff",
-      bg: "rgb(249 249 255)",
+      bg: "#D6AD63",
       footer_bg: "#0a1435",
-      btn: "#eab308",
+      btn: "#D6AD63",
       border: "rgba(98, 84, 243, 0.5)",
       hr: "#ffffff",
       gradient:
@@ -46,7 +46,7 @@ function App() {
     AOS.init({once:true});
     const timer = setTimeout(() => {
       setLoading(false); 
-    }, 3000); 
+    }, 4000); 
 
     return () => clearTimeout(timer); // Clear the timer on unmount
   }, []);
