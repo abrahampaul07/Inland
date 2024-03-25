@@ -39,7 +39,7 @@ const About = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          &nbsp;Get to know us
+          &nbsp;About <span className="text-gold">US</span>
         </h1>
         <h1
           className="font-bold text-2xl text-gold lg:text-4xl"
