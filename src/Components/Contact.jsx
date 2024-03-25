@@ -18,7 +18,7 @@ const Contact = () => {
                 type="text"
                 required
                 placeholder="Name"
-                className="border-[1px] rounded border-gold p-2"
+                className="border-[1px] rounded border-gold p-2 bg-black"
                 data-aos="fade-up"
                 data-aos-duration="2000"
               />
@@ -26,7 +26,7 @@ const Contact = () => {
                 type="text"
                 required
                 placeholder="Contact Number"
-                className="border-[1px] rounded border-gold p-2"
+                className="border-[1px] rounded border-gold p-2 bg-black"
                 data-aos="fade-up"
                 data-aos-duration="2000"
               />
@@ -34,7 +34,7 @@ const Contact = () => {
                 type="text"
                 required
                 placeholder="Message"
-                className="border-[1px] rounded border-gold p-2"
+                className="border-[1px] rounded border-gold p-2 bg-black"
                 data-aos="fade-up"
                 data-aos-duration="2000"
               />

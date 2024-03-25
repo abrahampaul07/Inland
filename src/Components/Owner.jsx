@@ -8,7 +8,7 @@ import video from "../assets/video.mp4";
 const Owner = () => {
   return (
     <div id="onwer" style={{ paddingTop: "40px" }} className="section flex justify-center items-center ">
-      <div className="max-w-full sm:max-w-5xl h-auto bg-white shadow-md rounded-lg overflow-hidden mx-5 my-8 flex flex-col sm:flex-row">
+      <div className="max-w-full sm:max-w-5xl h-auto  shadow-lg rounded-lg overflow-hidden mx-5 my-8 flex flex-col sm:flex-row">
         {/* Left side (Image) */}
         <div className="w-full sm:w-1/2">
           <img
@@ -32,7 +32,7 @@ const Owner = () => {
             Mohammed Shafiq
           </p>
           <div className="mt-4" data-aos="fade-up" data-aos-duration="3000">
-            <p className="text-blue-500 font-FilsonProLight text-base md:text-sm lg:text-base">
+            <p className="text-blue-500 font-FilsonProLight text-base md:text-sm lg:text-base text-justify md:text-left ">
               Mohammed Shafiq has been the frontier in the realty sector since
               two decades, envisaged in this field of real estate development &
               construction, Mohammed Shafiq’s journey began in a small city of
