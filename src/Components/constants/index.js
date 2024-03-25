@@ -46,41 +46,10 @@ export const ProjectData = [
     {
         title:'Project Title',
         content:'Lorem ipsum dolor sit.',
-        backgroundImage:pro1,
-        gradientBackground:'linear-gradient(to bottom, rgba(128, 128, 128, 0.52), rgba(128, 128, 128, 0))',
-        location:'BANGALORE'
-    },
-    {
-        title:'Project Title',
-        content:'Lorem ipsum dolor sit.',
         backgroundImage:pro2,
         gradientBackground:'linear-gradient(to bottom, rgba(128, 128, 128, 0.52), rgba(128, 128, 128, 0))',
         location:'BANGALORE'
-    }, {
-        title:'Project Title',
-        content:'Lorem ipsum dolor sit.',
-        backgroundImage:pro3,
-        gradientBackground:'linear-gradient(to bottom, rgba(128, 128, 128, 0.52), rgba(128, 128, 128, 0))',
-        location:'BANGALORE'
-    }, {
-        title:'Project Title',
-        content:'Lorem ipsum dolor sit.',
-        backgroundImage:pro4,
-        gradientBackground:'linear-gradient(to bottom, rgba(128, 128, 128, 0.52), rgba(128, 128, 128, 0))',
-        location:'BANGALORE'
-    }, {
-        title:'Project Title',
-        content:'Lorem ipsum dolor sit.',
-        backgroundImage:build,
-        gradientBackground:'linear-gradient(to bottom, rgba(128, 128, 128, 0.52), rgba(128, 128, 128, 0))',
-        location:'BANGALORE'
-    }, {
-        title:'Project Title',
-        content:'Lorem ipsum dolor sit.',
-        backgroundImage:pro2,
-        gradientBackground:'linear-gradient(to bottom, rgba(128, 128, 128, 0.52), rgba(128, 128, 128, 0))',
-        location:'BANGALORE'
-    },
+    }
 ]
 
 

@@ -109,7 +109,7 @@ export default function Project() {
       >
         &nbsp;FEATURED <span className="text-gold">&nbsp;PROJECTS</span>
       </h1>
-      <div className="p-auto m-auto justify-center flex flex-wrap ">
+      <div className="p-auto justify-center  flex flex-wrap ">
         {ProjectData.map((item) => (
           <Card
             key={item.id}
@@ -117,8 +117,10 @@ export default function Project() {
             title={item.title}
             location={item.location}
           />
+          
         ))}
       </div>
+      
     </div>
   );
 }

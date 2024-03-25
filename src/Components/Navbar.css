@@ -1,0 +1,20 @@
+/* Navbar active link underline animation */
+.underline-animation {
+    position: relative;
+  }
+  
+  .underline-animation::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust this value to change the distance of the underline from the text */
+    width: 100%;
+    height: 1px; /* Adjust this value to change the thickness of the underline */
+    background-color: #080808; /* Change this value to change the color of the underline */
+    transition: width 0.3s ease;
+  }
+  
+  .underline-animation:hover::after {
+    width: 100%;
+  }
+  
