@@ -145,7 +145,7 @@ const Wrapper = styled.section`
     font-size: 2.0rem;
     width: 4rem;
     height: 4rem;
-    color: #fff;
+    color: #000;
     background-color: ${({ theme }) => theme.colors.btn};
     box-shadow: ${({ theme }) => theme.colors.shadow};
     border-radius: 50%;

@@ -42,12 +42,12 @@ const Hero = () => {
   }, []);
 
   return (
-    <div id="home" className="relative w-full h-screen mt-[60px] lg:mt-[80px]">
+    <div id="home" className="relative w-full h-screen mt-[0px] lg:mt-[80px]">
       <video className="absolute inset-0 w-full h-full object-cover z-0" loop muted autoPlay playsInline>
         <source src={video} type="video/mp4" />
       </video>
       <div className="absolute inset-0 flex flex-col justify-center items-center z-0">
-        <h1 className="text-white font-bold text-4xl mt-[-190px] lg:mt-[20px] md:mt-0 md:text-[70px] lg:text-[122px] text-center opacity-light" data-aos="fade-up" data-aos-duration="3000">
+        <h1 className="text-white font-bold text-4xl mt-[-120px] lg:mt-[20px] md:mt-0 md:text-[70px] lg:text-[122px] text-center opacity-light" data-aos="fade-up" data-aos-duration="3000">
           WE BUILD YOUR
         </h1>
         <h1 className="text-5xl md:text-[80px] mt-[-5px] md:mt-[5px] lg:mt-[20px] lg:text-[132px] text-center text-gold font-bold" data-aos="fade-left" data-aos-duration="2000">
