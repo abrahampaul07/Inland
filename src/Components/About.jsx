@@ -106,9 +106,10 @@ const About = () => {
       style={{ paddingTop: "100px" }}
     >
       <div
-        className="flex md:justify-center "
+        className="flex md:justify-center m-auto "
         data-aos="fade-right"
         data-aos-duration="2000"
+        
       >
         {/* <span className="border-[15px] h-[450px] md:mt-[30px] md:ml-[110px] lg:ml-0 lg:mt-7  mt-[10px] lg:h-[580px] w-[340px] lg:w-[440px] border-gold absolute top-0 left-7 z-0"></span> */}
         <img
