@@ -15,6 +15,7 @@ import Project from './Components/Project';
 import {BrowserRouter} from "react-router-dom";
 import GoToTop from './Components/GoToTop';
 import { ThemeProvider } from 'styled-components';
+import Cardd from './Components/Cardd';
 
 function App() {
 
@@ -39,21 +40,20 @@ function App() {
     media: { small: "425px", mobile: "768px", tab: "998px" },
   };
 
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     AOS.init({once:true});
     const timer = setTimeout(() => {
-      setLoading(false); 
-    }, 3000); 
+      setLoading(false);
+    }, 3000);
 
     return () => clearTimeout(timer); // Clear the timer on unmount
   }, []);
 
   return (
     <>
-      
+
     {loading ? (
       <Loader />
     ) : (
@@ -62,9 +62,9 @@ function App() {
       <Navbar />
       <GoToTop />
       <Hero />
-      <About/> 
+      <About/>
       <Services/>
-      <Owner/>
+      <Cardd/>
       <Project/>
       <Videos/>
       <Contact/>
@@ -73,13 +73,31 @@ function App() {
     )}
   </>
 
-
-   
   )
 }
 
 export default App
 
+// import React from "react";
+// // import Cardd from "./Components/Cardd";
+// import Contact from "./Components/Contact";
+// import About from './Components/About'
+// import Hero from './Components/Hero'
+
+// import './App.css'
 
 
 
+
+// const App = () => {
+//   return (
+//     <>
+//       {/* <Cardd /> */}
+//       <Hero/>
+//       <About/>
+//       <Contact />
+//     </>
+//   );
+// };
+
+// export default App;

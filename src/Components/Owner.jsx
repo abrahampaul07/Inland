@@ -210,8 +210,8 @@ const Owner = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true, // Autoplay enabled
-    autoplaySpeed: 3000, // Autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
 
   return (
@@ -279,5 +279,30 @@ const Owner = () => {
     </div>
   );
 };
+
+// Right arrow component
+const SampleNextArrow = (props) => {
+  const { className, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...props.style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+};
+
+// Left arrow component
+const SamplePrevArrow = (props) => {
+  const { className, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...props.style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+};
+
 
 export default Owner;

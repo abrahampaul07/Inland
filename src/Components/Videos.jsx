@@ -7,7 +7,7 @@ import thumb from '../assets/bg.jpg'
 
 const Videos = () => {
   return (
-           <div className="flex justify-center items-center mt-9 shadow-sm rounded   p-4" data-aos="fade-up"
+           <div className="flex bg-crm justify-center items-center mt-9 shadow-sm rounded   p-4" data-aos="fade-up"
            data-aos-duration="1000">
              <Video 
              className='h-auto m-2 lg:m-4 md:h-[400px]  lg:h-[400px]  '

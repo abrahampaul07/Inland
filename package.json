@@ -12,8 +12,6 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.15.14",
-    "@mui/material": "^5.15.14",
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "aos": "^2.3.4",
