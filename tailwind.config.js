@@ -21,7 +21,9 @@ export default {
       'drm':'#C19D33',
       'yllw':'#fde047',
       'black':'#0C0C0C',
-      'icon':'#C6A442',      
+      'icon':'#C6A442',   
+      'cream':'#F5F3EC',
+      'crm':'#fffbeb'   
     },
   },
   plugins: [],
