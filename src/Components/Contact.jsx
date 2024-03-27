@@ -63,7 +63,7 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <span className="flex md:hidden">&nbsp;</span>REGD. Office
+                <span className="flex lg:hidden">&nbsp;</span> REGD. Office
               </h1>
               <p
                 className="text-gray-700 text-sm"
@@ -80,7 +80,7 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                 <span className="flex md:hidden">&nbsp;</span>Head Office
+                 <span className="flex lg:hidden">&nbsp;</span>Head Office
               </h1>
               <p
                 className="text-gray-700 text-sm"
