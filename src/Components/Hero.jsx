@@ -52,7 +52,7 @@ const Hero = () => {
       </video>
       <div className="absolute inset-0 flex flex-col justify-center items-center z-0">
         <h1
-          className="text-white font-bold text-4xl mt-[-120px] lg:mt-[20px] md:mt-0 md:text-[70px] lg:text-[122px] text-center opacity-light"
+          className="text-white font-bold text-[40px] mt-[-120px] lg:mt-[-40px] md:mt-0 md:text-[70px] lg:text-[122px] text-center opacity-light"
           data-aos="fade-up"
           data-aos-duration="3000"
           style={{ "font-family": "Nephilm" }}
@@ -60,7 +60,7 @@ const Hero = () => {
           WE BUILD YOUR
         </h1>
         <h1
-          className="text-5xl md:text-[80px] mt-[-4px] md:mt-[5px] lg:mt-[30px] lg:text-[132px] text-center text-gold font-bold"
+          className="text-5xl md:text-[80px] mt-[-7px] md:mt-[-20px] lg:mt-[-40px] lg:text-[132px] text-center text-gold font-bold"
           data-aos="fade-left"
           data-aos-duration="2000"
           style={{ "font-family": "Nephilm" }}

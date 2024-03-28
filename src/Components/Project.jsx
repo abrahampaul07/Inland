@@ -147,22 +147,25 @@ const Project = () => {
   };
 
   return (
-    <div className="flex justify-center items-center section"id="projects" style={{ paddingTop: "100px" }}>
+    <div className="flex justify-center items-center section pb-[100px]" id="projects"  style={{ paddingTop: "100px" }}>
       <div className="w-full max-w-screen-lg">
-        <div className="mt-8">
-          <h2 className="text-2xl font-bold mb-4">Upcoming Projects</h2>
+        <div className="mt-8 flex flex-col justify-center items-center">
+          <h2 className="text-md font-bold mb-4 w-[250px] uppercase p-1 border-b-[1px] border-gold"  data-aos="fade-up"
+          data-aos-duration="1000">Upcoming Projects</h2>
           <div className=" gap-4">
             {projects.map((project, index) => (
-              <div key={index} className="bg-white p-4 rounded shadow">
+              <div key={index} className="bg-white p-1 rounded shadow">
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
-                  <p className="text-gray-600">{project.description}</p>
+                  {/* <h3 className="text-lg font-semibold mb-2">{project.name}</h3> */}
+                  {/* <p className="text-gray-600">{project.description}</p> */}
                 </div>
                 <button
-                  className="mt-4 bg-blue-500  hover:bg-gold hover:text-white text-gold font-bold py-2 px-4 rounded self-center"
+                  className="mt-0 bg-blue-500 flex items-center  hover:bg-gold hover:text-white text-gold font-bold py-2 px-4 rounded self-center"
                   onClick={() => downloadPdf(project.pdfUrl)}
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
                 >
-                 Download PDF
+                 <MdFileDownload className='text-2xl'/>&nbsp;Download PDF
                 </button>
               </div>
             ))}

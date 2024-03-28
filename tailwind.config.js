@@ -23,7 +23,8 @@ export default {
       'black':'#0C0C0C',
       'icon':'#C6A442',   
       'cream':'#F5F3EC',
-      'crm':'#fffbeb'   
+      'crm':'#fffbeb',
+      'stone':'#f8fafc'   
     },
   },
   plugins: [],
