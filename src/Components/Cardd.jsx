@@ -27,18 +27,9 @@ const Cardd = () => {
   };
 
   const data = [
+    
     {
       id: 1,
-      imageUrl: own1,
-      title: "Managing Director",
-      name: "SALMAN Khalid sheriff",
-      description:
-        "Salman Khalid Sheriff boasts a rich, three-decade-long career in construction and development, with a profound expertise in real estate",
-      description2:
-        "Throughout his career, he has collaborated with esteemed companies such as IBC and Platinum Builders, consistently delivering exceptional results.",
-    },
-    {
-      id: 2,
       imageUrl: own2,
       title: "Chairman",
       name: "Mohammed Shafiq",
@@ -48,6 +39,16 @@ const Cardd = () => {
         " Mr. Shafiq has more than 20 years of experience of multi successful businesses and has pioneered his passion into reality…",
       description3:
         "Mohammed Shafiq has more than 20 years of experience in the real-estate world, a concept leader in various other business wherein Mohammed Shafiq formulated his companies under the brand “RUBY”.",
+    },
+    {
+      id: 2,
+      imageUrl: own1,
+      title: "Managing Director",
+      name: "SALMAN Khalid sheriff",
+      description:
+        "Salman Khalid Sheriff boasts a rich, three-decade-long career in construction and development, with a profound expertise in real estate",
+      description2:
+        "Throughout his career, he has collaborated with esteemed companies such as IBC and Platinum Builders, consistently delivering exceptional results.",
     },
     {
       id: 3,
@@ -102,7 +103,7 @@ const Cardd = () => {
                 <img
                   src={item.imageUrl}
                   alt="Card Image"
-                  className="lg:w-[360px] md:w-[300px] lg:h-[350px] md:h-[200px]   "
+                  className="lg:w-[360px] md:w-[300px] lg:h-[360px] md:h-[200px]   "
                 />
                 <div className="lg:p-5 md:p-2 text-start  bg-white lg:absolute lg:w-[330px] md:w-[210px] top-[340px]">
                   <p

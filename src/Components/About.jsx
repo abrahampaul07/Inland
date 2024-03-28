@@ -106,9 +106,7 @@ const About = () => {
       style={{ paddingTop: "100px" }}
     >
       <div
-        className="flex md:justify-center m-auto"
-        data-aos="fade-right"
-        data-aos-duration="2000"
+      className="flex md:justify-center m-auto "
       >
         {/* <span className="border-[15px] h-[450px] md:mt-[30px] md:ml-[110px] lg:ml-0 lg:mt-7  mt-[10px] lg:h-[580px] w-[340px] lg:w-[440px] border-gold absolute top-0 left-7 z-0"></span> */}
         <img
@@ -128,7 +126,7 @@ const About = () => {
         >
           &nbsp;OUR <span className="text-gold">STORY</span>
         </h1>
-        <p className="p-3 flex justify-end text-sm md:text-md lg:text-md" style={{'font-family':'FilsonProLight'}} data-aos="fade-up" data-aos-duration="000">
+           <p className="p-3 flex justify-end text-sm md:text-md lg:text-md  " style={{'font-family':'FilsonProLight'}} data-aos="fade-up" data-aos-duration="1000">
           INLAND is a leading construction company specializing in a wide range
           of residential and commercial construction projects. With years of
           experience in the industry, we have built a strong reputation for

@@ -204,7 +204,7 @@ const Services = () => {
     >
       <div className="container mx-auto">
         <h1
-          className="border-l-[5px] flex ml-[20px] lg:ml-[78px] mb-6  border-gold uppercase font-bold text-2xl"
+          className="border-l-[5px] flex ml-[20px] lg:ml-[78px] mb-2 md:mb-6   border-gold uppercase font-bold text-2xl"
           data-aos="fade-up"
           data-aos-duration="1000"
         >

@@ -19,7 +19,7 @@ const Contact = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  &nbsp;CONTACT <span className="text-gold">&nbsp;US</span>
+                  &nbsp;GET IN <span className="text-gold">&nbsp;TOUCH</span>
                 </h1>
                 <input
                   type="text"
@@ -132,9 +132,9 @@ const Contact = () => {
 
         <div className="flex  bg-black text-white p-9 ">
           <div className="border-t-[1px] border-silver p-4 w-full flex-column md:flex md:justify-between">
-            <p className="mt-9 " style={{ "font-family": "FilsonProLight" }}>
+            <p className="mt-9" style={{ "font-family": "FilsonProLight" }} >
               {" "}
-              © 2024 Official Website of Inland Infratech. All rights reserved.{" "}
+              © 2024 Official Website of <span className="text-gold">Inland Infratech.</span> All rights reserved.{" "}
             </p>
             <div className="icons flex gap-4 mt-9 justify-center text-2xl ">
               <FaInstagram className="hover:text-3xl" />{" "}
