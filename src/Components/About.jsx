@@ -106,30 +106,27 @@ const About = () => {
       style={{ paddingTop: "100px" }}
     >
       <div
-        className="flex md:justify-center m-auto "
-        data-aos="fade-right"
-        data-aos-duration="2000"
-        
+      className="flex md:justify-center m-auto "
       >
         {/* <span className="border-[15px] h-[450px] md:mt-[30px] md:ml-[110px] lg:ml-0 lg:mt-7  mt-[10px] lg:h-[580px] w-[340px] lg:w-[440px] border-gold absolute top-0 left-7 z-0"></span> */}
         <img
           src={img}
           alt=""
           style={{ zIndex: 1 }}
-          className=" relative z-10 h-[440px] md:h-[530px] lg:h-[530px] w-[340px] lg:w-[420px] top-[-16px] md:top-[5px]"
+          className=" relative z-10 h-[440px] md:h-[530px] lg:h-[530px] w-[340px] lg:w-[420px] top-[-16px] md:top-[-20px]"
         />
 
         {/* <img src={img} alt="image" data-aos="zoom-in-down" data-aos-duration="3000"/> */}
       </div>
       <div className="flex flex-col text-start space-y-5 lg:space-y-9 justify-center w-full lg:w-1/2 p-3">
         <h1
-          className=" border-l-[5px] border-gold uppercase font-bold text-2xl "
+          className=" border-l-[5px] border-gold uppercase font-bold text-2xl ml-2"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           &nbsp;OUR <span className="text-gold">STORY</span>
         </h1>
-        <p className="p-3 flex justify-end text-sm md:text-md lg:text-md  " style={{'font-family':'FilsonProLight'}} data-aos="fade-up" data-aos-duration="1000">
+           <p className="p-3 flex justify-end text-sm md:text-md lg:text-md  " style={{'font-family':'FilsonProLight'}} data-aos="fade-up" data-aos-duration="1000">
           INLAND is a leading construction company specializing in a wide range
           of residential and commercial construction projects. With years of
           experience in the industry, we have built a strong reputation for

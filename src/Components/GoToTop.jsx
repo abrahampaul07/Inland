@@ -128,7 +128,7 @@ const GoToTop = () => {
       {isVisible && (
         <div className={`top-btn  ${theme.darkMode ? 'dark-mode-enabled' : '' } ` } onClick={goToBtn}>
              {/* <div className='top-btn  bg-gold ? "dark-mode-enabled" : "" '  onClick={goToBtn}> */}
-          <FaArrowUp className="top-btn--icon " />
+          <FaArrowUp className="top-btn--icon text-white" />
         </div>
       )}
     </Wrapper>
