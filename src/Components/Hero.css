@@ -1,0 +1,8 @@
+.letter {
+    opacity: 0;
+    transition: opacity 0.2s ease; /* Adjust the transition duration */
+  }
+  
+  .letter.visible {
+    opacity: 1;
+  }

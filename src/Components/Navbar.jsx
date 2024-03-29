@@ -152,7 +152,7 @@ function Navbar() {
         <NavItem to="#home" active={activeLink === "#home"} onCloseMenu={closeMenu}>HOME</NavItem>
         <NavItem to="#about" active={activeLink === "#about"} onCloseMenu={closeMenu}>ABOUT</NavItem>
         <NavItem to="#services" active={activeLink === "#services"} onCloseMenu={closeMenu}>SERVICES</NavItem>
-        <NavItem to="#projects" active={activeLink === "#projects"} onCloseMenu={closeMenu}>PROJECTS</NavItem>
+        {/* <NavItem to="#projects" active={activeLink === "#projects"} onCloseMenu={closeMenu}>PROJECTS</NavItem> */}
         <NavItem to="#contact" active={activeLink === "#contact"} onCloseMenu={closeMenu}>CONTACT</NavItem>
       </ul>
     </nav>
