@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 import Video from './Components/Videos';
 import Videos from './Components/Videos';
 import Services from './Components/Services';
-import Project from './Components/Project';
+// import Project from './Components/Project';
 import {BrowserRouter} from "react-router-dom";
 import GoToTop from './Components/GoToTop';
 import { ThemeProvider } from 'styled-components';
@@ -65,7 +65,7 @@ function App() {
       <About/>
       <Services/>
       <Cardd/>
-      <Project/>
+      {/* <Project/> */}
       <Videos/>
       <Contact/>
     </BrowserRouter>

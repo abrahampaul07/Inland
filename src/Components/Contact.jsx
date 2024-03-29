@@ -2,8 +2,14 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { SiLinkedin } from "react-icons/si";
+import { MdMailOutline } from "react-icons/md";
+import { HiOutlinePhone } from "react-icons/hi";
+import location from "../assets/locc.png";
+
 
 const Contact = () => {
+  
   return (
     <>
       <div className="bg-black">
@@ -63,7 +69,11 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
+<<<<<<< HEAD
+                <span className="flex lg:hidden">&nbsp;</span>REGD. Office
+=======
                 <span className="flex lg:hidden">&nbsp;</span> REGD. Office
+>>>>>>> b8a15600cfcba42c1c131b9bfac11721bea58b24
               </h1>
               <p
                 className="text-gray-700 text-sm"
@@ -80,7 +90,11 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
+<<<<<<< HEAD
+                <span className="flex lg:hidden">&nbsp;</span>Head Office
+=======
                  <span className="flex lg:hidden">&nbsp;</span>Head Office
+>>>>>>> b8a15600cfcba42c1c131b9bfac11721bea58b24
               </h1>
               <p
                 className="text-gray-700 text-sm"
@@ -96,9 +110,8 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                
-                <span style={{ "font-family": "FilsonProLight" }}>
-                  info@inlandinfratech.com
+                <span className="flex items-center gap-2" style={{ "font-family": "FilsonProLight" }}>
+                <MdMailOutline className="text-gold"/> info@inlandinfratech.com
                 </span>
               </p>
               <p
@@ -106,40 +119,48 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                
-                <span style={{ "font-family": "FilsonProLight" }}>
-                  +91 - 95135 18199
+                <span className="flex items-center gap-2" style={{ "font-family": "FilsonProLight" }}>
+                <HiOutlinePhone className="text-gold"/> +91 - 95135 18199
                 </span>
               </p>
             </div>
           </div>
 
           <div
-            className="container-item lg:w-1/3 p-5 mb-8 lg:m-9"
-            data-aos="fade-up"
+            className="container-item lg:w-1/3 p-5 mb-0 lg:m-9"
+            data-aos="zoom-out-down"
             data-aos-duration="2000"
           >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.84916296526!2d77.6309395!3d12.9539974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1711001519082!5m2!1sen!2sin"
-              width="100%"
-              height="350"
-              allowFullScreen=""
-              loading="lazy"
-              title="Map"
-            ></iframe>
+         <a href="https://maps.app.goo.gl/JhpmmhXkF1YFG72e9" target="_blank"><img className="w-full h-[250px]"  src={location} alt="location" /></a>
+
           </div>
         </div>
 
         <div className="flex  bg-black text-white p-9 ">
           <div className="border-t-[1px] border-silver p-4 w-full flex-column md:flex md:justify-between">
-            <p className="mt-9" style={{ "font-family": "FilsonProLight" }} >
+            <p className="mt-9 text-md"  style={{ "font-family": "FilsonProLight" }}>
               {" "}
-              © 2024 Official Website of <span className="text-gold">Inland Infratech.</span> All rights reserved.{" "}
+              © 2024 Official Website of{" "}
+              <span className="text-gold">Inland Infratech.</span> All rights
+              reserved.{" "}
             </p>
             <div className="icons flex gap-4 mt-9 justify-center text-2xl ">
-              <FaInstagram className="hover:text-3xl" />{" "}
-              <FaFacebook className="hover:text-3xl" />
-              <FaXTwitter className="hover:text-3xl" />
+              <a href="https://twitter.com/InlandInfratech">
+                {" "}
+                <FaXTwitter className="hover:text-3xl" />
+              </a>
+              <a href="https://www.instagram.com/inlandinfratech/">
+                {" "}
+                <FaInstagram className="hover:text-3xl" />
+              </a>
+              <a href="https://www.facebook.com/people/Inland-Infratech/100088879593874/">
+                {" "}
+                <FaFacebook className="hover:text-3xl" />
+              </a>
+              <a href="https://www.linkedin.com/in/inland-infratech-42684525a">
+                {" "}
+                <SiLinkedin className="hover:text-3xl" />
+              </a>
             </div>
           </div>
         </div>

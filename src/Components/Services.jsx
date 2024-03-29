@@ -212,8 +212,9 @@ const Services = () => {
         </h1>
         <div
           className="flex flex-wrap justify-center"
-          data-aos="fade-up"
-          data-aos-duration="2000"
+          
+          data-aos="zoom-out-up"
+          data-aos-duration="1000"
         >
           {data.map((item, index) => (
             <Card

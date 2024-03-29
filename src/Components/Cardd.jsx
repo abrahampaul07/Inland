@@ -11,7 +11,7 @@ const Cardd = () => {
   const PrevArrow = (props) => {
     const { onClick } = props;
     return (
-      <button className="slick-prev" onClick={onClick}>
+      <button className="slick-prev text-black" onClick={onClick}>
         Prev
       </button>
     );
@@ -27,7 +27,7 @@ const Cardd = () => {
   };
 
   const data = [
-    
+
     {
       id: 1,
       imageUrl: own2,
@@ -90,7 +90,7 @@ const Cardd = () => {
         {/* Large screens */}
         <div
           className="hidden  md:flex "
-          data-aos="fade-up"
+          data-aos="zoom-in"
           data-aos-duration="1000"
         >
           {" "}
@@ -152,3 +152,8 @@ const Cardd = () => {
 };
 
 export default Cardd;
+
+
+
+
+
